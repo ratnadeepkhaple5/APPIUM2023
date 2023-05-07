@@ -32,7 +32,7 @@ public class DriverActions extends BaseClass
 		driver.runAppInBackground(Duration.ofSeconds(10));
 		System.out.println(driver.queryAppState("Api demos="+"io.appium.android.apis"));
 
-		// actiovate other app
+		// activate other app
 		driver.activateApp("com.androidsample.generalstore");
 		System.out.println(driver.queryAppState("Api demos="+"io.appium.android.apis"));
 		Thread.sleep(3000);
